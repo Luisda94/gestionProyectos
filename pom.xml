@@ -2,5 +2,19 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>cl.sence.luis</groupId>
   <artifactId>gestion-proyectos</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>    <dependencies>
+        <!-- Dependencia para pruebas unitarias -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Dependencia para manejar CSV -->
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.5.2</version>
+        </dependency>
+    </dependencies>
 </project>
