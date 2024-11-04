@@ -37,6 +37,13 @@ public class Proyecto {
 	public void setEquipo(List<Empleado> equipo) {
 		this.equipo = equipo;
 	}
-
+    public void agregarEmpleado(Empleado empleado) {
+        if (empleado != null) {
+            equipo.add(empleado);
+            System.out.println("Empleado añadido: " + empleado.getNombreE());
+        } else {
+            System.out.println("El empleado no puede ser nulo.");
+        }
+    }
 }
 
